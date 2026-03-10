@@ -889,26 +889,6 @@ npm test
 
 ---
 
-## Publishing to NPM
-
-```bash
-# 1. Build
-npm run build
-
-# 2. Login to npm
-npm login
-
-# 3. Publish
-npm publish
-```
-
-The build produces:
-- `dist/index.js` — CommonJS (18.6KB)
-- `dist/index.mjs` — ESM (17.4KB)
-- `dist/index.d.ts` — Full TypeScript declarations
-
----
-
 ## Roadmap
 
 - [ ] Dashboard UI integration (web panel to visualize usage)
