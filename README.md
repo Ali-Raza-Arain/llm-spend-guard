@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/llm--cost--guard-v1.0.0-blue?style=for-the-badge" alt="version" />
+  <img src="https://img.shields.io/npm/v/llm-spend-guard?style=for-the-badge&color=blue&label=llm-spend-guard" alt="version" />
 </p>
 
 <h1 align="center">llm-spend-guard</h1>
@@ -10,7 +10,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/llm-spend-guard" alt="npm" />
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license" />
   <img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen" alt="node" />
   <img src="https://img.shields.io/badge/TypeScript-5.x-blue" alt="typescript" />
