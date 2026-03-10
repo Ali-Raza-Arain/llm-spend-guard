@@ -30,7 +30,10 @@
     "budget",
     "cost",
     "guard",
-    "rate-limit"
+    "rate-limit",
+    "claude",
+    "ai",
+    "gpt"
   ],
   "author": "",
   "license": "MIT",
@@ -52,10 +55,18 @@
     "ioredis": ">=5.0.0"
   },
   "peerDependenciesMeta": {
-    "openai": { "optional": true },
-    "@anthropic-ai/sdk": { "optional": true },
-    "@google/generative-ai": { "optional": true },
-    "ioredis": { "optional": true }
+    "openai": {
+      "optional": true
+    },
+    "@anthropic-ai/sdk": {
+      "optional": true
+    },
+    "@google/generative-ai": {
+      "optional": true
+    },
+    "ioredis": {
+      "optional": true
+    }
   },
   "engines": {
     "node": ">=18.0.0"
