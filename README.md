@@ -14,7 +14,8 @@
   <!-- <img src="https://img.shields.io/npm/dw/llm-spend-guard?color=blue" alt="npm downloads" /> -->
   <img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen" alt="node" />
   <img src="https://img.shields.io/badge/TypeScript-5.x-blue" alt="typescript" />
-  <img src="https://img.shields.io/badge/tests-28%20passed-green" alt="tests" />
+  <img src="https://img.shields.io/badge/tests-108%20passed-green" alt="tests" />
+  <a href="https://codecov.io/gh/Ali-Raza-Arain/llm-spend-guard"><img src="https://codecov.io/gh/Ali-Raza-Arain/llm-spend-guard/branch/main/graph/badge.svg" alt="codecov" /></a>
   <!-- <img src="https://img.shields.io/badge/bundle-18.6KB-orange" alt="size" /> -->
 </p>
 
@@ -910,14 +911,18 @@ npm install
 npm test
 ```
 
-**28 tests** covering:
-- Budget overflow and enforcement
-- Per-user, per-session, per-request limits
-- Token estimation accuracy
-- Context truncation logic
-- Provider wrappers (mocked, no API keys needed)
-- Alert callback firing
+**108 tests** (99% coverage) covering:
+- Budget overflow and enforcement (global, daily, per-request limits)
+- Per-user, per-session, per-route scopes
+- Token estimation accuracy (tiktoken + heuristic)
+- Context truncation logic (system messages, binary search trimming)
+- All provider wrappers — OpenAI, Anthropic, Gemini (mocked, no API keys needed)
+- Auto-truncation across all providers
+- Alert callback firing and deduplication
 - Guard lifecycle (create, wrap, reset)
+- Express middleware and Next.js wrapper
+- Error handling (BudgetExceededError, budget error handler)
+- Storage backends (MemoryStorage, RedisStorage with mock)
 
 ---
 

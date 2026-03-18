@@ -5,3 +5,4 @@ dist/
 *.log
 ai-chat-demo
 docs/.vitepress/cache/
+coverage
