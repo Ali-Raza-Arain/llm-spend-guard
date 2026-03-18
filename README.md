@@ -27,8 +27,20 @@ A single runaway loop, an uncapped user session, or one oversized prompt can bur
 
 ---
 
+## Why llm-spend-guard?
+
+- **Pre-request blocking** — Stops overspending *before* the API call, not after
+- **Multi-provider** — Single API for OpenAI, Anthropic Claude, and Google Gemini
+- **Multi-scope budgets** — Global, per-user, per-session, and per-route limits
+- **Zero config** — Works with 3 lines of code, no infrastructure needed
+- **Production-ready** — Redis storage, Express/Next.js middleware, TypeScript-first
+- **Lightweight** — 18.6KB bundle, zero runtime dependencies beyond tiktoken
+
+---
+
 ## Table of Contents
 
+- [Why llm-spend-guard?](#why-llm-spend-guard)
 - [How It Works](#how-it-works)
 - [Compatible Tech Stacks](#compatible-tech-stacks)
 - [Installation](#installation)
@@ -51,6 +63,7 @@ A single runaway loop, an uncapped user session, or one oversized prompt can bur
   - [Fastify / Koa / Hono](#fastify--koa--hono)
 - [SaaS Per-User Budget Example](#saas-per-user-budget-example)
 - [Full API Reference](#full-api-reference)
+- [Comparison with Alternatives](#comparison-with-alternatives)
 - [Running Tests](#running-tests)
 - [Publishing to NPM](#publishing-to-npm)
 - [Roadmap](#roadmap)
@@ -865,6 +878,21 @@ import type {
   ChatMessage, TokenEstimatorFn,
 } from 'llm-spend-guard';
 ```
+
+---
+
+## Comparison with Alternatives
+
+| Feature | llm-spend-guard | Manual tracking | OpenAI Usage Limits |
+|---------|----------------|-----------------|---------------------|
+| Pre-request blocking | Yes | No | No (post-hoc only) |
+| Multi-provider support | OpenAI + Claude + Gemini | Manual per SDK | OpenAI only |
+| Per-user budgets | Built-in | Build yourself | No |
+| Per-session / per-route scopes | Built-in | Build yourself | No |
+| Auto-truncation | Yes | No | No |
+| Express/Next.js middleware | Built-in | Build yourself | No |
+| Redis support | Built-in | Build yourself | No |
+| Self-hosted | Yes | Yes | No (vendor dashboard) |
 
 ---
 

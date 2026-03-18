@@ -1,7 +1,7 @@
 {
   "name": "llm-spend-guard",
   "version": "1.0.4",
-  "description": "Real-time LLM token budget guard for OpenAI, Anthropic, and Gemini APIs",
+  "description": "Enforce real-time token budgets and spending limits for OpenAI, Anthropic Claude, and Google Gemini API calls in Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -33,9 +33,25 @@
     "rate-limit",
     "claude",
     "ai",
-    "gpt"
+    "gpt",
+    "token-budget",
+    "llm-cost",
+    "api-cost-control",
+    "spending-limit",
+    "token-limit",
+    "ai-cost-management",
+    "gpt-4",
+    "gpt-4o"
   ],
-  "author": "",
+  "author": "Ali Raza Arain",
+  "homepage": "https://github.com/Ali-Raza-Arain/llm-spend-guard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-Raza-Arain/llm-spend-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ali-Raza-Arain/llm-spend-guard/issues"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.12",
