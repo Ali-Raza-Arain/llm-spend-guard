@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/llm-spend-guard/',
   title: 'llm-spend-guard',
   description: 'Enforce real-time token budgets and spending limits for OpenAI, Anthropic Claude, and Google Gemini API calls in Node.js',
   head: [
