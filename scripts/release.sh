@@ -9,18 +9,22 @@ set -euo pipefail
 
 BUMP="${1:-patch}"
 
-echo "==> Running tests..."
-npm test
-
 echo "==> Running lint..."
 npm run lint
+
+echo "==> Running tests with coverage..."
+npx jest --coverage --coverageReporters=text
+echo ""
+
+echo "==> Building package..."
+npm run build
+
+echo "==> Building docs..."
+npm run docs:build
 
 echo "==> Bumping version ($BUMP)..."
 NEW_VERSION=$(npm version "$BUMP" --no-git-tag-version | tr -d 'v')
 echo "    New version: $NEW_VERSION"
-
-echo "==> Building..."
-npm run build
 
 echo "==> Publishing to npm..."
 npm publish
@@ -49,6 +53,7 @@ echo "============================================"
 echo ""
 echo "Post-release checklist:"
 echo "  1. Update CHANGELOG.md with release details"
-echo "  2. Share on Dev.to / Reddit / X (see .github/SOCIAL_POSTS.md)"
-echo "  3. Update GitHub repo 'About' description if needed"
+echo "  2. Verify Codecov badge updated (https://codecov.io/gh/Ali-Raza-Arain/llm-spend-guard)"
+echo "  3. Verify docs deployed (https://ali-raza-arain.github.io/llm-spend-guard/)"
+echo "  4. Update GitHub repo 'About' description if needed"
 echo ""

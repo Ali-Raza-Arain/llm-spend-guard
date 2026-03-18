@@ -14,6 +14,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `CODE_OF_CONDUCT.md` — Contributor Covenant v2.1
 - `SECURITY.md` — vulnerability reporting policy
 - Roadmap documentation page with sidebar integration
+- Codecov integration with dynamic coverage badge in README
+- VitePress local search enabled in docs
+- 6 feature cards on docs homepage (added "Zero Config" and "Smart Auto-Truncation")
+- Dynamic version display in docs navbar (reads from `package.json`)
+- Contributing and Security sections in README
+
+### Changed
+- Test suite expanded from 28 to 108 tests (99% code coverage)
+- Added tests for Gemini provider, middleware, Redis storage, error classes
+- CI workflow now generates coverage reports and uploads to Codecov
+- Replaced static coverage badge with dynamic Codecov badge in README
 
 ## [2.0.0] - 2026-03-18
 
