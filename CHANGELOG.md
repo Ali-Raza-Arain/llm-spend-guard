@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.0] - 2026-03-18
+
+### Added
+- VitePress documentation site with 8 SEO-targeted pages (deployed on GitHub Pages)
+- Schema.org `SoftwareApplication` structured data markup
+- Open Graph and Twitter Card meta tags for social sharing
+- Auto-generated `sitemap.xml` for search engine crawling
+- GitHub Pages deployment workflow (`.github/workflows/deploy-docs.yml`)
+- Release automation script (`scripts/release.sh`) — single command for test, build, publish, tag, and release
+- Dev.to article draft (`.github/DEVTO_ARTICLE.md`)
+- Social post templates for Reddit, Hacker News, and X (`.github/SOCIAL_POSTS.md`)
+- "Why llm-spend-guard?" section in README
+- "Comparison with Alternatives" table in README
+- `CHANGELOG.md` following Keep a Changelog format
+- GitHub Release notes template (`.github/RELEASE_TEMPLATE.md`)
+
+### Changed
+- Optimized `package.json` description for Google search snippets (127 characters)
+- Added 8 new SEO keywords (`token-budget`, `llm-cost`, `api-cost-control`, `spending-limit`, `token-limit`, `ai-cost-management`, `gpt-4`, `gpt-4o`)
+- Added `repository`, `homepage`, `bugs`, and `author` fields to `package.json`
+- Updated `homepage` to point to docs site
+
 ## [1.0.4] - 2025-03-10
 
 ### Changed
