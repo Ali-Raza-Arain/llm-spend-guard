@@ -1,0 +1,45 @@
+name: Help Wanted
+description: Request help with implementation or debugging
+title: "[Help]: "
+labels: ["help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help? Describe your situation and we'll try to assist.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you need help with?
+      description: Describe what you're trying to accomplish.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Steps or approaches you've already attempted.
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: Relevant Code
+      description: Share relevant code snippets if applicable.
+      render: typescript
+
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error Messages
+      description: Any error messages or logs.
+      render: shell
+
+  - type: input
+    id: version
+    attributes:
+      label: Package Version
+      placeholder: "2.0.0"

@@ -1,0 +1,29 @@
+name: Question
+description: Ask a question about usage or configuration
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? We're happy to help!
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any relevant context, code snippets, or what you've already tried.
+
+  - type: input
+    id: version
+    attributes:
+      label: Package Version
+      placeholder: "2.0.0"

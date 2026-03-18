@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://llm-spend-guard.netlify.app/
+    about: Check the documentation before opening an issue.
