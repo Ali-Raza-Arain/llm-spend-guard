@@ -4,3 +4,4 @@ dist/
 .env
 *.log
 ai-chat-demo
+docs/.vitepress/cache/
