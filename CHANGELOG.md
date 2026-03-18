@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.1] - 2026-03-18
+
+### Added
+- GitHub issue templates — Bug Report, Feature Request, Question, Help Wanted (YAML form format)
+- Issue template config with docs link and blank issues disabled
+- Pull Request template with checklist and type-of-change labels
+- `CONTRIBUTING.md` — full contributor guide (setup, branch naming, commit convention, PR process)
+- `CODE_OF_CONDUCT.md` — Contributor Covenant v2.1
+- `SECURITY.md` — vulnerability reporting policy
+- Roadmap documentation page with sidebar integration
+
 ## [2.0.0] - 2026-03-18
 
 ### Added

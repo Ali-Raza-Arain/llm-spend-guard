@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { version } from '../../package.json'
 
 export default defineConfig({
   base: '/llm-spend-guard/',
@@ -21,7 +22,7 @@ export default defineConfig({
       description: 'Enforce real-time token budgets for OpenAI, Anthropic Claude, and Google Gemini API calls',
       url: 'https://ali-raza-arain.github.io/llm-spend-guard/',
       downloadUrl: 'https://www.npmjs.com/package/llm-spend-guard',
-      softwareVersion: '2.0.0',
+      softwareVersion: version,
       license: 'https://opensource.org/licenses/MIT',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
       programmingLanguage: 'TypeScript',
@@ -32,6 +33,7 @@ export default defineConfig({
   },
   themeConfig: {
     nav: [
+      { text: `v${version}`, link: 'https://github.com/Ali-Raza-Arain/llm-spend-guard/blob/main/CHANGELOG.md' },
       { text: 'Guide', link: '/guide/getting-started' },
       { text: 'API', link: '/guide/api-reference' },
       { text: 'npm', link: 'https://www.npmjs.com/package/llm-spend-guard' },

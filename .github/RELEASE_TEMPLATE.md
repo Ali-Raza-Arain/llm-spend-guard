@@ -1,20 +1,19 @@
-# llm-spend-guard v1.0.4 — SEO-optimized package.json, README improvements, and CHANGELOG
+# llm-spend-guard v2.0.1 — Open-source community health files & issue templates
 
 ## What's New
-- Added `repository`, `homepage`, `bugs`, and `author` fields to `package.json` for npm-to-GitHub backlinks
-- Added 8 new SEO-targeted keywords (`token-budget`, `llm-cost`, `api-cost-control`, `spending-limit`, `token-limit`, `ai-cost-management`, `gpt-4`, `gpt-4o`)
-- Optimized package description for Google search snippets (127 characters)
-- Added "Why llm-spend-guard?" section to README with feature highlights
-- Added "Comparison with Alternatives" table to README
-- Created `CHANGELOG.md` following Keep a Changelog format
-- Created `.github/RELEASE_TEMPLATE.md` for consistent, SEO-friendly release notes
+- GitHub issue templates (Bug Report, Feature Request, Question, Help Wanted) with structured YAML forms
+- Pull Request template with checklist and type-of-change labels
+- `CONTRIBUTING.md` — complete guide for contributors (setup, branch naming, commit convention, PR process)
+- `CODE_OF_CONDUCT.md` — Contributor Covenant v2.1
+- `SECURITY.md` — private vulnerability reporting policy
+- Roadmap documentation page
 
 ## Why Upgrade
-Improved discoverability on npm search and Google. The package now has proper metadata linking npm to GitHub, keyword-rich descriptions, and structured content that search engines can index effectively.
+This release focuses on making the project contributor-friendly. No code changes — all additions are community health files that improve the open-source experience.
 
 ## Install / Upgrade
 ```bash
-npm install llm-spend-guard@1.0.4
+npm install llm-spend-guard@2.0.1
 ```
 
 ## Quick Example
