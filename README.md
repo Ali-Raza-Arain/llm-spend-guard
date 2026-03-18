@@ -11,10 +11,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license" />
+  <!-- <img src="https://img.shields.io/npm/dw/llm-spend-guard?color=blue" alt="npm downloads" /> -->
   <img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen" alt="node" />
   <img src="https://img.shields.io/badge/TypeScript-5.x-blue" alt="typescript" />
   <img src="https://img.shields.io/badge/tests-28%20passed-green" alt="tests" />
-  <img src="https://img.shields.io/badge/bundle-18.6KB-orange" alt="size" />
+  <!-- <img src="https://img.shields.io/badge/bundle-18.6KB-orange" alt="size" /> -->
 </p>
 
 ---
@@ -34,7 +35,7 @@ A single runaway loop, an uncapped user session, or one oversized prompt can bur
 - **Multi-scope budgets** — Global, per-user, per-session, and per-route limits
 - **Zero config** — Works with 3 lines of code, no infrastructure needed
 - **Production-ready** — Redis storage, Express/Next.js middleware, TypeScript-first
-- **Lightweight** — 18.6KB bundle, zero runtime dependencies beyond tiktoken
+- **Lightweight** — zero runtime dependencies beyond tiktoken
 
 ---
 
@@ -67,6 +68,8 @@ A single runaway loop, an uncapped user session, or one oversized prompt can bur
 - [Running Tests](#running-tests)
 - [Publishing to NPM](#publishing-to-npm)
 - [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Security](#security)
 - [Support](#support)
 - [Contributors](#contributors)
 - [License](#license)
@@ -918,14 +921,20 @@ npm test
 
 ---
 
-## Roadmap
+## Contributing
 
-- [ ] Dashboard UI integration (web panel to visualize usage)
-- [ ] Cost estimation in USD (per-model pricing tables)
-- [ ] Combined rate limiter + cost guard
-- [ ] Analytics export (CSV, JSON)
-- [ ] Streaming support with real-time token counting
-- [ ] Webhook alerts (POST to URL on threshold)
+We welcome contributions! Please read the [Contributing Guide](CONTRIBUTING.md) before submitting a PR.
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+
+Look for issues labeled [`good first issue`](https://github.com/ali-raza-arain/llm-spend-guard/labels/good%20first%20issue) to get started.
+
+---
+
+## Security
+
+To report a vulnerability, please **do not** open a public issue. See our [Security Policy](SECURITY.md) for responsible disclosure instructions.
 
 ---
 

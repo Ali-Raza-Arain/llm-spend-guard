@@ -27,4 +27,8 @@ features:
     details: Enforce limits at global, per-user, per-session, and per-route levels simultaneously.
   - title: Production Ready
     details: Redis storage, Express/Next.js middleware, TypeScript-first. 18.6KB lightweight bundle.
+  - title: Zero Config — 3 Lines
+    details: Wrap your existing SDK client, set a budget, and you're done. No infrastructure or config files needed.
+  - title: Smart Auto-Truncation
+    details: Intelligently trims oversized prompts to fit your remaining budget instead of rejecting them outright.
 ---
