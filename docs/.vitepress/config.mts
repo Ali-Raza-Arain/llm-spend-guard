@@ -21,7 +21,7 @@ export default defineConfig({
       description: 'Enforce real-time token budgets for OpenAI, Anthropic Claude, and Google Gemini API calls',
       url: 'https://ali-raza-arain.github.io/llm-spend-guard/',
       downloadUrl: 'https://www.npmjs.com/package/llm-spend-guard',
-      softwareVersion: '1.0.4',
+      softwareVersion: '2.0.0',
       license: 'https://opensource.org/licenses/MIT',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
       programmingLanguage: 'TypeScript',
@@ -36,6 +36,7 @@ export default defineConfig({
       { text: 'API', link: '/guide/api-reference' },
       { text: 'npm', link: 'https://www.npmjs.com/package/llm-spend-guard' },
       { text: 'GitHub', link: 'https://github.com/Ali-Raza-Arain/llm-spend-guard' },
+      { text: 'Sponsor', link: 'https://buymeacoffee.com/alirazaarain' },
     ],
     sidebar: [
       {
@@ -67,12 +68,19 @@ export default defineConfig({
           { text: 'Comparison with Alternatives', link: '/guide/comparison' },
         ],
       },
+      {
+        text: 'About',
+        items: [
+          { text: 'Credits & Sponsor', link: '/guide/credits' },
+        ],
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Ali-Raza-Arain/llm-spend-guard' },
     ],
     footer: {
       message: 'Released under the MIT License.',
+      copyright: 'Made by <a href="https://github.com/Ali-Raza-Arain">Ali Raza</a>',
     },
   },
 })
