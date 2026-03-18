@@ -65,12 +65,13 @@ export default defineConfig({
         text: 'Reference',
         items: [
           { text: 'API Reference', link: '/guide/api-reference' },
-          { text: 'Comparison with Alternatives', link: '/guide/comparison' },
+          { text: 'Comparison', link: '/guide/comparison' },
         ],
       },
       {
         text: 'About',
         items: [
+          { text: 'Roadmap', link: '/guide/roadmap' },
           { text: 'Credits & Sponsor', link: '/guide/credits' },
         ],
       },
