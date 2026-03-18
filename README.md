@@ -67,6 +67,8 @@ A single runaway loop, an uncapped user session, or one oversized prompt can bur
 - [Running Tests](#running-tests)
 - [Publishing to NPM](#publishing-to-npm)
 - [Roadmap](#roadmap)
+- [Support](#support)
+- [Contributors](#contributors)
 - [License](#license)
 
 ---
@@ -924,6 +926,27 @@ npm test
 - [ ] Analytics export (CSV, JSON)
 - [ ] Streaming support with real-time token counting
 - [ ] Webhook alerts (POST to URL on threshold)
+
+---
+
+## Support
+
+If this package helps you, consider supporting its development:
+
+<a href="https://github.com/sponsors/Ali-Raza-Arain">
+  <img src="https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" />
+</a>
+<a href="https://buymeacoffee.com/alirazaarain">
+  <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+</a>
+
+---
+
+## Contributors
+
+<a href="https://github.com/Ali-Raza-Arain/llm-spend-guard/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Ali-Raza-Arain/llm-spend-guard" alt="Contributors" />
+</a>
 
 ---
 
