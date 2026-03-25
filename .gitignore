@@ -6,3 +6,9 @@ dist/
 ai-chat-demo
 docs/.vitepress/cache/
 coverage
+.proj-track.json
+.proj-track.txt
+.proj-track.json.paused
+.proj-track-disabled
+REPLICATION_*.md
+todo

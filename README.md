@@ -939,7 +939,7 @@ Look for issues labeled [`good first issue`](https://github.com/ali-raza-arain/l
 
 ## Security
 
-To report a vulnerability, please **do not** open a public issue. See our [Security Policy](SECURITY.md) for responsible disclosure instructions.
+To report vulnerabilities, please see our [Security Policy](SECURITY.md).
 
 ---
 
@@ -966,4 +966,4 @@ If this package helps you, consider supporting its development:
 
 ## License
 
-MIT
+[MIT](https://opensource.org/licenses/MIT) — Made by [Ali Raza](https://github.com/Ali-Raza-Arain)
