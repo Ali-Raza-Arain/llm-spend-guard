@@ -11,11 +11,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license" />
-  <!-- <img src="https://img.shields.io/npm/dw/llm-spend-guard?color=blue" alt="npm downloads" /> -->
   <img src="https://img.shields.io/badge/node-%3E%3D18-brightgreen" alt="node" />
   <img src="https://img.shields.io/badge/TypeScript-5.x-blue" alt="typescript" />
   <img src="https://img.shields.io/badge/tests-108%20passed-green" alt="tests" />
   <a href="https://codecov.io/gh/Ali-Raza-Arain/llm-spend-guard"><img src="https://codecov.io/gh/Ali-Raza-Arain/llm-spend-guard/branch/main/graph/badge.svg" alt="codecov" /></a>
+  <img src="https://img.shields.io/npm/dt/llm-spend-guard?style=flat&color=blue&label=downloads" alt="downloads" />
   <!-- <img src="https://img.shields.io/badge/bundle-18.6KB-orange" alt="size" /> -->
 </p>
 

@@ -33,7 +33,7 @@ export default defineConfig({
   },
   themeConfig: {
     nav: [
-      { text: `v${version}`, link: 'https://github.com/Ali-Raza-Arain/llm-spend-guard/blob/main/CHANGELOG.md' },
+      { text: `v${version}`, link: 'https://github.com/Ali-Raza-Arain/llm-spend-guard/releases' },
       { text: 'Guide', link: '/guide/getting-started' },
       { text: 'API', link: '/guide/api-reference' },
       { text: 'npm', link: 'https://www.npmjs.com/package/llm-spend-guard' },

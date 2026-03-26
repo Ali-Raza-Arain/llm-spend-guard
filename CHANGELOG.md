@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.5] - 2026-03-26
+
+### Changed
+- Internal version tracking improvements
+
+## [2.0.4] - 2026-03-25
+
+### Changed
+- Streamlined README security and license sections
+- Expanded `.gitignore` with project tracking and replication patterns
+
+## [2.0.3] - 2026-03-25
+
+### Changed
+- Internal version alignment
+
 ## [2.0.2] - 2026-03-18
 
 ### Changed
@@ -54,18 +70,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Added `repository`, `homepage`, `bugs`, and `author` fields to `package.json`
 - Updated `homepage` to point to docs site
 
-## [1.0.4] - 2025-03-10
+## [1.0.5] - 2026-03-10
+
+### Changed
+- Maintenance update
+
+## [1.0.4] - 2026-03-10
 
 ### Changed
 - Updated README version badge to use NPM
 - Removed duplicate badge
 
-## [1.0.3] - 2025-03-10
+## [1.0.3] - 2026-03-10
 
 ### Changed
 - Improved README documentation
 
-## [1.0.2] - 2025-03-10
+## [1.0.2] - 2026-03-10
 
 ### Added
 - GitHub Actions CI workflow (lint, test, build)
@@ -73,7 +94,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Changed
 - Updated package configuration
 
-## [1.0.0] - 2025-03-10
+## [1.0.0] - 2026-03-10
 
 ### Added
 - Initial release
