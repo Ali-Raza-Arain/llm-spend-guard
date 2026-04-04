@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.6] - 2026-04-04
+
+### Changed
+- Removed hyperlink from Codecov badge in README
+- Added npm total downloads badge to README
+- Updated docs navbar version link to point to GitHub Releases instead of CHANGELOG
+
 ## [2.0.5] - 2026-03-26
 
 ### Changed
